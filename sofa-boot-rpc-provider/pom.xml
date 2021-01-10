@@ -25,6 +25,11 @@
             <artifactId>sofa-boot-rpc-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>link.thingscloud</groupId>
+            <artifactId>sofa-boot-rpc-rest-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
 
         <dependency>
             <groupId>com.alipay.sofa</groupId>

@@ -13,6 +13,7 @@
         <module>sofa-boot-rpc-api</module>
         <module>sofa-boot-rpc-consumer</module>
         <module>sofa-boot-rpc-provider</module>
+        <module>sofa-boot-rpc-rest-api</module>
     </modules>
 
     <properties>

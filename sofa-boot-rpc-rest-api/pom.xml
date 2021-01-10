@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sofa-boot-rpc-consumer</artifactId>
+    <artifactId>sofa-boot-rpc-rest-api</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,17 +20,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>link.thingscloud</groupId>
-            <artifactId>sofa-boot-rpc-api</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>link.thingscloud</groupId>
-            <artifactId>sofa-boot-rpc-rest-api</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>rpc-sofa-boot-starter</artifactId>
@@ -70,6 +59,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 @SofaService(bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class EchoServiceImpl implements EchoService {
+
     @Override
     public String echo(String str) {
         System.out.println("echo : " + str);
